@@ -1,0 +1,29 @@
+Source:
+
+https://www.eduonix.com/blog/web-programming-tutorials/learn-submit-html-data-mysql-database-using-php/
+
+<?php
+ 
+// Create connection
+ 
+$connect=mysqli_connect("localhost","enun03","","c9");
+ 
+ 
+ 
+// Check connection
+ 
+if (mysqli_connect_errno($connect)) {
+ 
+ echo "Failed to connect to database: " . mysqli_connect_error();
+ 
+}
+ 
+ 
+ 
+mysqli_query($connect,"INSERT INTO employees1 (first_name,last_name,department,email)
+VALUES ('rahul','maharana','marketing','maharhaul21@gmail.com');");
+ 
+ 
+$result = mysqli_query($connect, "SELECT * FROM employees1");
+ 
+?>

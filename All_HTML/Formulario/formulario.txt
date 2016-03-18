@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Formulario</title>
+</head>
+<body>
+<h2>Ejemplo Formulario</h2>
+<form action="?">
+Favor de llenar los renglones del formulario en su totalidad.<br />
+Name:
+<input type="text" name="nombre">
+contraseña:
+<INPUT TYPE="password" NAME="pass"><br />
+Estado civil:<br />
+<input type="checkbox" name="estadoCiv" value="0">Soltero
+<input type="checkbox" name="estadoCiv" value="0">Casado
+<input type="checkbox" name="estadoCiv" value="0">Separado
+<input type="checkbox" name="estadoCiv" value="0">Viudo<br />
+Cantidad de hijos:<BR>
+<input type="radio" name="cntHijos" value="0">ninguno
+<input type="radio" name="cntHijos" value="1">uno
+<input type="radio" name="cntHijos" value="2">dos
+<input type="radio" name="cntHijos" value="3">mas ed 2<br />
+<input type="reset" value="Borrar formulario">
+<input type="submit" value="enviar contenido del formulario">
+<input type="button" name="botón" value="boton sin funccion">
+</form>
+</body>
+</html>

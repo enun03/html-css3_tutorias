@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+	text-align: center;
+}
+
+h2 {
+    color: navy;
+    margin-left: 20px;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+table, td, th {
+    border: 1px white;
+}
+
+th {
+    background-color: navy;
+    color: white;
+}
+
+td {
+	background-color: white;
+	border: 1px black;
+}
